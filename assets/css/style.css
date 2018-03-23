@@ -1,0 +1,25 @@
+#container {
+  background-color: green;
+}
+
+#jumbo {
+  background-image: url("../images/trainStation.jpeg");
+}
+
+#train-table {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#station {
+  color: white;
+}
+
+#address {
+  color: white;
+}
+
+#submit {
+  background-image: url("../images/flag.jpeg");
+  color: black;
+}
