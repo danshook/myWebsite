@@ -183,8 +183,8 @@
         color: #ccc;
         font-size: 12px;
         text-align: center;
-        position: fixed;
-        bottom: 0;
+        position: absolute bottom;
+        /* bottom: 0; */
         width: 1110px;
     }
       
