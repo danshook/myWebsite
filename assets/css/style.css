@@ -132,6 +132,49 @@
         /* padding: 20px; */
     }
 
-    .social {
-        margin: 15px 7px;
+    .social_git {
+        position: relative;
+        top: 134px;
+        right: 219px;
     }
+
+    .social_link {
+        position: relative;
+        top: 348px;
+        right: 462px;
+    }
+
+    .social_stack {
+        position: relative;
+        top: 375px;
+        right: 100px;
+    }
+    
+    .social_home {
+        position: relative;
+        top: -70px;
+        right: -160px;
+    }
+
+    .social_brand {
+        position: relative;
+        top: 360px;
+        right: -300px;
+    }
+
+    .social_about {
+        position: relative;
+        top: 500px;
+        right: 450px;
+    }
+
+    .social_contact {
+        position: relative;
+        top: 525px;
+        right: -325px;
+    }
+
+      
+
+        
+    
