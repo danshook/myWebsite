@@ -170,10 +170,24 @@
 
     .social_contact {
         position: relative;
-        top: 525px;
+        top: 485px;
         right: -325px;
     }
 
+    footer {
+        background: black;
+        color: #fff;
+        padding: 30px 0;
+        /* clear: both; */
+        border-top: 8px solid #4aaaa5;
+        color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 1110px;
+    }
+      
       
 
         
