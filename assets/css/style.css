@@ -66,9 +66,25 @@
 }
 
 .color_1 {
-  min-height: 400px;
+  min-height: 500px;
   background: linear-gradient(rgb(213, 235, 89), blue, green);
+  text-align: center;
+  z-index: 2;
+  color: #fff;
+  font-family: "Assistant", sans-serif;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
 }
+
+#photoAZ {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* canvas {
+  border: 1px solid black;
+} */
 
 .art {
   z-index: 2;

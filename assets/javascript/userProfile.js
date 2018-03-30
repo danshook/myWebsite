@@ -11,11 +11,11 @@
 
 setTimeout(function() {
   $(".welcome")
-    .html("enjoy...")
-    .addClass("welcomeHinge");
+    .html("enjoy!")
+    .addClass("welcomeExit");
   $(".welcome_info").hide();
 }, 4000);
 
 setTimeout(function() {
-  $(".welcomeHinge").addClass("animated hinge");
+  $(".welcomeExit").addClass("animated lightSpeedOut");
 }, 5500);
