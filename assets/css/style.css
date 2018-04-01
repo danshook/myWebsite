@@ -28,14 +28,14 @@
   font-weight: bolder;
 }
 
-.welcomeTwo {
+.welcomeExit {
   z-index: 2;
   position: relative;
-  top: 165px;
+  top: 195px;
   color: #fff;
   font-family: "Assistant", sans-serif;
   text-align: center;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: bolder;
 }
 
@@ -49,10 +49,10 @@
   animation-delay: 0.2s;
 }
 
-.animation-delay-300 {
+/* .animation-delay-300 {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
-}
+} */
 
 .welcome_info {
   z-index: 2;
@@ -66,20 +66,19 @@
 }
 
 .color_1 {
-  min-height: 500px;
+  min-height: 600px;
   background: linear-gradient(rgb(213, 235, 89), blue, green);
   text-align: center;
-  z-index: 2;
+  /* z-index: 2; */
   color: #fff;
   font-family: "Assistant", sans-serif;
-  text-align: center;
   font-size: 100px;
   font-weight: bolder;
 }
 
 #photoAZ {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 125px;
 }
 
 /* canvas {
@@ -121,7 +120,8 @@
   z-index: 2;
   position: relative;
   top: 170px;
-  color: #fff;
+  /* color: #fff; */
+  color: black;
   font-family: "Assistant", sans-serif;
   text-align: center;
   font-size: 80px;
@@ -194,47 +194,47 @@
   /* display: inline-block; */
 }
 
-.social_git {
+/* .social_git {
   position: relative;
   top: 134px;
   right: 219px;
-}
+} */
 
-.social_link {
+/* .social_link {
   position: relative;
   top: 348px;
   right: 462px;
-}
+} */
 
-.social_stack {
+/* .social_stack {
   position: relative;
   top: 375px;
   right: 100px;
-}
+} */
 
-.social_home {
+/* .social_home {
   position: relative;
   top: -70px;
   right: -160px;
-}
+} */
 
-.social_brand {
+/* .social_brand {
   position: relative;
   top: 360px;
   right: -300px;
-}
+} */
 
-.social_about {
+/* .social_about {
   position: relative;
   top: 500px;
   right: 450px;
-}
+} */
 
-.social_contact {
+/* .social_contact {
   position: relative;
   top: 485px;
   right: -325px;
-}
+} */
 
 footer {
   /* background: black; */
@@ -276,7 +276,7 @@ footer {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: #4aaaa5;
+  /* background: #4aaaa5; */
   /* color: #333; */
   border-radius: 20px;
   font-family: "Flavors", cursive;
@@ -293,16 +293,6 @@ footer {
   color: white;
   transform: rotateY(180deg);
   border-radius: 20px;
-}
-
-#comedyPic {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-#gifPic {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 .artWall {
@@ -344,7 +334,70 @@ footer {
   width: 100%;
 }
 
-#trainStation {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+.comedy {
+  background-color: rgb(98, 104, 199);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* background: #4aaaa5; */
+  /* color: #333; */
+  /* border-radius: 20px; */
+  /* font-family: "Flavors", cursive; */
+  font-size: 100px;
+  color: white;
+  padding-top: 60px;
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+}
+
+.gif {
+  background-color: rgb(105, 221, 105);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* font-family: "Flavors", cursive; */
+  font-size: 100px;
+  color: white;
+  padding-top: 60px;
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+}
+
+.trainStation {
+  background-color: rgb(187, 187, 51);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  font-size: 100px;
+  color: white;
+  padding-top: 60px;
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+}
+
+#psychic {
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+}
+
+#crystals {
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+}
+
+#farmers {
+  /* border-top-left-radius: 20px; */
+  /* border-top-right-radius: 20px; */
+}
+
+.cardBackground {
+  background-color: black;
+  border: 5px solid black;
+  text-align: center;
+}
+
+.auth-image {
 }
