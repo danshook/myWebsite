@@ -140,7 +140,7 @@
 }
 
 .color_3 {
-  min-height: 800px;
+  min-height: 815px;
   /* background-color:rgb(161, 231, 161); */
   background: linear-gradient(gray, lightskyblue);
   padding: 15px;
@@ -415,17 +415,77 @@ footer {
   /* border-top-right-radius: 20px; */
 }
 
-#psychic {
+.psychic {
+  background-color: rgb(255, 191, 73);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  font-size: 100px;
+  color: white;
+  padding-top: 60px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.01), 2px 2px rgba(0, 0, 0, 0.03),
+    3px 3px rgba(0, 0, 0, 0.025), 4px 4px rgba(0, 0, 0, 0.02),
+    5px 5px rgba(0, 0, 0, 0.015), 6px 6px rgba(0, 0, 0, 0.01),
+    7px 6px rgba(0, 0, 0, 0.01), 8px 8px rgba(0, 0, 0, 0.01),
+    9px 8px rgba(0, 0, 0, 0.01), 10px 10px rgba(0, 0, 0, 0.01),
+    11px 11px rgba(0, 0, 0, 0.01), 12px 12px rgba(0, 0, 0, 0.01),
+    13px 13px rgba(0, 0, 0, 0.01), 14px 14px rgba(0, 0, 0, 0.01),
+    15px 15px rgba(0, 0, 0, 0.01), 16px 16px rgba(0, 0, 0, 0.01),
+    17px 17px rgba(0, 0, 0, 0.01), 18px 18px rgba(0, 0, 0, 0.01),
+    19px 19px rgba(0, 0, 0, 0.01), 20px 20px rgba(0, 0, 0, 0.01),
+    21px 21px rgba(0, 0, 0, 0.01), 22px 22px rgba(0, 0, 0, 0.01),
+    23px 23px rgba(0, 0, 0, 0.01);
   /* border-top-left-radius: 20px; */
   /* border-top-right-radius: 20px; */
 }
 
-#crystals {
+.crystals {
+  background-color: rgb(45, 58, 177);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  font-size: 100px;
+  color: white;
+  padding-top: 60px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.01), 2px 2px rgba(0, 0, 0, 0.03),
+    3px 3px rgba(78, 79, 150, 0.025), 4px 4px rgba(0, 0, 0, 0.02),
+    5px 5px rgba(0, 0, 0, 0.015), 6px 6px rgba(0, 0, 0, 0.01),
+    7px 6px rgba(0, 0, 0, 0.01), 8px 8px rgba(0, 0, 0, 0.01),
+    9px 8px rgba(0, 0, 0, 0.01), 10px 10px rgba(0, 0, 0, 0.01),
+    11px 11px rgba(0, 0, 0, 0.01), 12px 12px rgba(0, 0, 0, 0.01),
+    13px 13px rgba(0, 0, 0, 0.01), 14px 14px rgba(0, 0, 0, 0.01),
+    15px 15px rgba(0, 0, 0, 0.01), 16px 16px rgba(0, 0, 0, 0.01),
+    17px 17px rgba(0, 0, 0, 0.01), 18px 18px rgba(0, 0, 0, 0.01),
+    19px 19px rgba(0, 0, 0, 0.01), 20px 20px rgba(0, 0, 0, 0.01),
+    21px 21px rgba(0, 0, 0, 0.01), 22px 22px rgba(0, 0, 0, 0.01),
+    23px 23px rgba(0, 0, 0, 0.01);
   /* border-top-left-radius: 20px; */
   /* border-top-right-radius: 20px; */
 }
 
-#farmers {
+.farmers {
+  background-color: rgb(170, 147, 118);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  font-size: 100px;
+  color: white;
+  padding-top: 60px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.01), 2px 2px rgba(0, 0, 0, 0.03),
+    3px 3px rgba(78, 79, 150, 0.025), 4px 4px rgba(0, 0, 0, 0.02),
+    5px 5px rgba(0, 0, 0, 0.015), 6px 6px rgba(0, 0, 0, 0.01),
+    7px 6px rgba(0, 0, 0, 0.01), 8px 8px rgba(0, 0, 0, 0.01),
+    9px 8px rgba(0, 0, 0, 0.01), 10px 10px rgba(0, 0, 0, 0.01),
+    11px 11px rgba(0, 0, 0, 0.01), 12px 12px rgba(0, 0, 0, 0.01),
+    13px 13px rgba(0, 0, 0, 0.01), 14px 14px rgba(0, 0, 0, 0.01),
+    15px 15px rgba(0, 0, 0, 0.01), 16px 16px rgba(0, 0, 0, 0.01),
+    17px 17px rgba(0, 0, 0, 0.01), 18px 18px rgba(0, 0, 0, 0.01),
+    19px 19px rgba(0, 0, 0, 0.01), 20px 20px rgba(0, 0, 0, 0.01),
+    21px 21px rgba(0, 0, 0, 0.01), 22px 22px rgba(0, 0, 0, 0.01),
+    23px 23px rgba(0, 0, 0, 0.01);
   /* border-top-left-radius: 20px; */
   /* border-top-right-radius: 20px; */
 }
