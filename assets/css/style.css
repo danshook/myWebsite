@@ -360,6 +360,7 @@ footer {
     19px 19px rgba(0, 0, 0, 0.01), 20px 20px rgba(0, 0, 0, 0.01),
     21px 21px rgba(0, 0, 0, 0.01), 22px 22px rgba(0, 0, 0, 0.01),
     23px 23px rgba(0, 0, 0, 0.01);
+  box-shadow: 10px 10px rgb(32, 37, 104);
 }
 
 .gif {
@@ -491,8 +492,13 @@ footer {
 
 .cardBackground {
   background-color: black;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   text-align: center;
+  background: repeating-radial-gradient(
+    black,
+    gray 10%,
+    rgb(180, 173, 173) 15%
+  );
 }
 
 .auth-image {
